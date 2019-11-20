@@ -1,0 +1,604 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF49A1522384E3BD004448BF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FF49A1512384E3BD004448BF /* AppDelegate.m */; };
+		FF49A1552384E3BD004448BF /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FF49A1542384E3BD004448BF /* SceneDelegate.m */; };
+		FF49A1582384E3BD004448BF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF49A1572384E3BD004448BF /* ViewController.m */; };
+		FF49A15B2384E3BD004448BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF49A1592384E3BD004448BF /* Main.storyboard */; };
+		FF49A15D2384E3C0004448BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF49A15C2384E3C0004448BF /* Assets.xcassets */; };
+		FF49A1602384E3C0004448BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF49A15E2384E3C0004448BF /* LaunchScreen.storyboard */; };
+		FF49A1632384E3C0004448BF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FF49A1622384E3C0004448BF /* main.m */; };
+		FF49A16D2384E3C0004448BF /* PYGuidViewProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FF49A16C2384E3C0004448BF /* PYGuidViewProjectTests.m */; };
+		FF49A1782384E3C0004448BF /* PYGuidViewProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FF49A1772384E3C0004448BF /* PYGuidViewProjectUITests.m */; };
+		FF49A1882384E506004448BF /* PYGuideView.m in Sources */ = {isa = PBXBuildFile; fileRef = FF49A1872384E506004448BF /* PYGuideView.m */; };
+		FF49A18B2384E9CC004448BF /* PYTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FF49A18A2384E9CC004448BF /* PYTableViewCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FF49A1692384E3C0004448BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF49A1452384E3BD004448BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF49A14C2384E3BD004448BF;
+			remoteInfo = PYGuidViewProject;
+		};
+		FF49A1742384E3C0004448BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF49A1452384E3BD004448BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF49A14C2384E3BD004448BF;
+			remoteInfo = PYGuidViewProject;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FF49A14D2384E3BD004448BF /* PYGuidViewProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PYGuidViewProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF49A1502384E3BD004448BF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FF49A1512384E3BD004448BF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FF49A1532384E3BD004448BF /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		FF49A1542384E3BD004448BF /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		FF49A1562384E3BD004448BF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FF49A1572384E3BD004448BF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FF49A15A2384E3BD004448BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FF49A15C2384E3C0004448BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FF49A15F2384E3C0004448BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FF49A1612384E3C0004448BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF49A1622384E3C0004448BF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FF49A1682384E3C0004448BF /* PYGuidViewProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PYGuidViewProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF49A16C2384E3C0004448BF /* PYGuidViewProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PYGuidViewProjectTests.m; sourceTree = "<group>"; };
+		FF49A16E2384E3C0004448BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF49A1732384E3C0004448BF /* PYGuidViewProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PYGuidViewProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF49A1772384E3C0004448BF /* PYGuidViewProjectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PYGuidViewProjectUITests.m; sourceTree = "<group>"; };
+		FF49A1792384E3C0004448BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF49A1862384E506004448BF /* PYGuideView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PYGuideView.h; sourceTree = "<group>"; };
+		FF49A1872384E506004448BF /* PYGuideView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PYGuideView.m; sourceTree = "<group>"; };
+		FF49A1892384E9CC004448BF /* PYTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PYTableViewCell.h; sourceTree = "<group>"; };
+		FF49A18A2384E9CC004448BF /* PYTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PYTableViewCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF49A14A2384E3BD004448BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF49A1652384E3C0004448BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF49A1702384E3C0004448BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FF49A1442384E3BD004448BF = {
+			isa = PBXGroup;
+			children = (
+				FF49A14F2384E3BD004448BF /* PYGuidViewProject */,
+				FF49A16B2384E3C0004448BF /* PYGuidViewProjectTests */,
+				FF49A1762384E3C0004448BF /* PYGuidViewProjectUITests */,
+				FF49A14E2384E3BD004448BF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FF49A14E2384E3BD004448BF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF49A14D2384E3BD004448BF /* PYGuidViewProject.app */,
+				FF49A1682384E3C0004448BF /* PYGuidViewProjectTests.xctest */,
+				FF49A1732384E3C0004448BF /* PYGuidViewProjectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF49A14F2384E3BD004448BF /* PYGuidViewProject */ = {
+			isa = PBXGroup;
+			children = (
+				FF49A1852384E4E3004448BF /* PYGuidView */,
+				FF49A1502384E3BD004448BF /* AppDelegate.h */,
+				FF49A1512384E3BD004448BF /* AppDelegate.m */,
+				FF49A1532384E3BD004448BF /* SceneDelegate.h */,
+				FF49A1542384E3BD004448BF /* SceneDelegate.m */,
+				FF49A1562384E3BD004448BF /* ViewController.h */,
+				FF49A1572384E3BD004448BF /* ViewController.m */,
+				FF49A1892384E9CC004448BF /* PYTableViewCell.h */,
+				FF49A18A2384E9CC004448BF /* PYTableViewCell.m */,
+				FF49A1592384E3BD004448BF /* Main.storyboard */,
+				FF49A15C2384E3C0004448BF /* Assets.xcassets */,
+				FF49A15E2384E3C0004448BF /* LaunchScreen.storyboard */,
+				FF49A1612384E3C0004448BF /* Info.plist */,
+				FF49A1622384E3C0004448BF /* main.m */,
+			);
+			path = PYGuidViewProject;
+			sourceTree = "<group>";
+		};
+		FF49A16B2384E3C0004448BF /* PYGuidViewProjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				FF49A16C2384E3C0004448BF /* PYGuidViewProjectTests.m */,
+				FF49A16E2384E3C0004448BF /* Info.plist */,
+			);
+			path = PYGuidViewProjectTests;
+			sourceTree = "<group>";
+		};
+		FF49A1762384E3C0004448BF /* PYGuidViewProjectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FF49A1772384E3C0004448BF /* PYGuidViewProjectUITests.m */,
+				FF49A1792384E3C0004448BF /* Info.plist */,
+			);
+			path = PYGuidViewProjectUITests;
+			sourceTree = "<group>";
+		};
+		FF49A1852384E4E3004448BF /* PYGuidView */ = {
+			isa = PBXGroup;
+			children = (
+				FF49A1862384E506004448BF /* PYGuideView.h */,
+				FF49A1872384E506004448BF /* PYGuideView.m */,
+			);
+			path = PYGuidView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF49A14C2384E3BD004448BF /* PYGuidViewProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF49A17C2384E3C0004448BF /* Build configuration list for PBXNativeTarget "PYGuidViewProject" */;
+			buildPhases = (
+				FF49A1492384E3BD004448BF /* Sources */,
+				FF49A14A2384E3BD004448BF /* Frameworks */,
+				FF49A14B2384E3BD004448BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PYGuidViewProject;
+			productName = PYGuidViewProject;
+			productReference = FF49A14D2384E3BD004448BF /* PYGuidViewProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FF49A1672384E3C0004448BF /* PYGuidViewProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF49A17F2384E3C0004448BF /* Build configuration list for PBXNativeTarget "PYGuidViewProjectTests" */;
+			buildPhases = (
+				FF49A1642384E3C0004448BF /* Sources */,
+				FF49A1652384E3C0004448BF /* Frameworks */,
+				FF49A1662384E3C0004448BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF49A16A2384E3C0004448BF /* PBXTargetDependency */,
+			);
+			name = PYGuidViewProjectTests;
+			productName = PYGuidViewProjectTests;
+			productReference = FF49A1682384E3C0004448BF /* PYGuidViewProjectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FF49A1722384E3C0004448BF /* PYGuidViewProjectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF49A1822384E3C0004448BF /* Build configuration list for PBXNativeTarget "PYGuidViewProjectUITests" */;
+			buildPhases = (
+				FF49A16F2384E3C0004448BF /* Sources */,
+				FF49A1702384E3C0004448BF /* Frameworks */,
+				FF49A1712384E3C0004448BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF49A1752384E3C0004448BF /* PBXTargetDependency */,
+			);
+			name = PYGuidViewProjectUITests;
+			productName = PYGuidViewProjectUITests;
+			productReference = FF49A1732384E3C0004448BF /* PYGuidViewProjectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF49A1452384E3BD004448BF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "水泥座";
+				TargetAttributes = {
+					FF49A14C2384E3BD004448BF = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					FF49A1672384E3C0004448BF = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = FF49A14C2384E3BD004448BF;
+					};
+					FF49A1722384E3C0004448BF = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = FF49A14C2384E3BD004448BF;
+					};
+				};
+			};
+			buildConfigurationList = FF49A1482384E3BD004448BF /* Build configuration list for PBXProject "PYGuidViewProject" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FF49A1442384E3BD004448BF;
+			productRefGroup = FF49A14E2384E3BD004448BF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF49A14C2384E3BD004448BF /* PYGuidViewProject */,
+				FF49A1672384E3C0004448BF /* PYGuidViewProjectTests */,
+				FF49A1722384E3C0004448BF /* PYGuidViewProjectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF49A14B2384E3BD004448BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF49A1602384E3C0004448BF /* LaunchScreen.storyboard in Resources */,
+				FF49A15D2384E3C0004448BF /* Assets.xcassets in Resources */,
+				FF49A15B2384E3BD004448BF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF49A1662384E3C0004448BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF49A1712384E3C0004448BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF49A1492384E3BD004448BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF49A1582384E3BD004448BF /* ViewController.m in Sources */,
+				FF49A1522384E3BD004448BF /* AppDelegate.m in Sources */,
+				FF49A18B2384E9CC004448BF /* PYTableViewCell.m in Sources */,
+				FF49A1632384E3C0004448BF /* main.m in Sources */,
+				FF49A1882384E506004448BF /* PYGuideView.m in Sources */,
+				FF49A1552384E3BD004448BF /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF49A1642384E3C0004448BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF49A16D2384E3C0004448BF /* PYGuidViewProjectTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF49A16F2384E3C0004448BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF49A1782384E3C0004448BF /* PYGuidViewProjectUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FF49A16A2384E3C0004448BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF49A14C2384E3BD004448BF /* PYGuidViewProject */;
+			targetProxy = FF49A1692384E3C0004448BF /* PBXContainerItemProxy */;
+		};
+		FF49A1752384E3C0004448BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF49A14C2384E3BD004448BF /* PYGuidViewProject */;
+			targetProxy = FF49A1742384E3C0004448BF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FF49A1592384E3BD004448BF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF49A15A2384E3BD004448BF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FF49A15E2384E3C0004448BF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF49A15F2384E3C0004448BF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FF49A17A2384E3C0004448BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FF49A17B2384E3C0004448BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF49A17D2384E3C0004448BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PYGuidViewProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hdtch.www.PYGuidViewProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FF49A17E2384E3C0004448BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PYGuidViewProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hdtch.www.PYGuidViewProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FF49A1802384E3C0004448BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PYGuidViewProjectTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hdtch.www.PYGuidViewProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PYGuidViewProject.app/PYGuidViewProject";
+			};
+			name = Debug;
+		};
+		FF49A1812384E3C0004448BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PYGuidViewProjectTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hdtch.www.PYGuidViewProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PYGuidViewProject.app/PYGuidViewProject";
+			};
+			name = Release;
+		};
+		FF49A1832384E3C0004448BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PYGuidViewProjectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hdtch.www.PYGuidViewProjectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PYGuidViewProject;
+			};
+			name = Debug;
+		};
+		FF49A1842384E3C0004448BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PYGuidViewProjectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hdtch.www.PYGuidViewProjectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PYGuidViewProject;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF49A1482384E3BD004448BF /* Build configuration list for PBXProject "PYGuidViewProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF49A17A2384E3C0004448BF /* Debug */,
+				FF49A17B2384E3C0004448BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF49A17C2384E3C0004448BF /* Build configuration list for PBXNativeTarget "PYGuidViewProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF49A17D2384E3C0004448BF /* Debug */,
+				FF49A17E2384E3C0004448BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF49A17F2384E3C0004448BF /* Build configuration list for PBXNativeTarget "PYGuidViewProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF49A1802384E3C0004448BF /* Debug */,
+				FF49A1812384E3C0004448BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF49A1822384E3C0004448BF /* Build configuration list for PBXNativeTarget "PYGuidViewProjectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF49A1832384E3C0004448BF /* Debug */,
+				FF49A1842384E3C0004448BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF49A1452384E3BD004448BF /* Project object */;
+}
